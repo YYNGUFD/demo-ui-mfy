@@ -4,7 +4,7 @@
  * @Author: Mfy
  * @Date: 2020-11-18 18:46:52
  * @LastEditors: Mfy
- * @LastEditTime: 2020-11-18 18:54:20
+ * @LastEditTime: 2020-11-27 09:32:52
  */
 let Koa = require('koa');
 let KoaRouter = require('koa-router');
@@ -24,7 +24,7 @@ app
   .use(router.allowedMethods()) // 允许使用路由的方法
 
 // 3. 监听端口
-app.listen('5250', () => {
+app.listen('3010', () => {
   console.log('服务器启动成功'); 
-  console.log('http://localhost:5250'); 
+  console.log('http://localhost:3010'); 
 })
